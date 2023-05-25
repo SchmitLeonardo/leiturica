@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/leiturica/static/css/main.073c9b0a.css",
-    "main.js": "/leiturica/static/js/main.dd2718df.js",
-    "static/js/787.c67c1e75.chunk.js": "/leiturica/static/js/787.c67c1e75.chunk.js",
-    "static/media/logo.svg": "/leiturica/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/leiturica/static/css/main.0f0cb190.css",
+    "main.js": "/leiturica/static/js/main.a3f44bbb.js",
+    "static/media/image-background-2-masked.png": "/leiturica/static/media/image-background-2-masked.1361b2df8fd32db7a9f7.png",
+    "static/media/image-background-1-masked.png": "/leiturica/static/media/image-background-1-masked.c31b40ff68aa3599368e.png",
+    "static/media/image-natani-perotto.jpeg": "/leiturica/static/media/image-natani-perotto.b163cd2404a306f07d78.jpeg",
+    "static/media/logo-leiturica.png": "/leiturica/static/media/logo-leiturica.86ec07cbcac5e1e228f5.png",
+    "static/media/Stellar-Bold.otf": "/leiturica/static/media/Stellar-Bold.e21385535875e905cf91.otf",
+    "static/media/Stellar-light.otf": "/leiturica/static/media/Stellar-light.dec6386746bb8d51a354.otf",
+    "static/media/icon-money-hand.png": "/leiturica/static/media/icon-money-hand.321aa64a5394c732d3cc.png",
     "index.html": "/leiturica/index.html",
-    "main.073c9b0a.css.map": "/leiturica/static/css/main.073c9b0a.css.map",
-    "main.dd2718df.js.map": "/leiturica/static/js/main.dd2718df.js.map",
-    "787.c67c1e75.chunk.js.map": "/leiturica/static/js/787.c67c1e75.chunk.js.map"
+    "main.0f0cb190.css.map": "/leiturica/static/css/main.0f0cb190.css.map",
+    "main.a3f44bbb.js.map": "/leiturica/static/js/main.a3f44bbb.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.dd2718df.js"
+    "static/css/main.0f0cb190.css",
+    "static/js/main.a3f44bbb.js"
   ]
 }
