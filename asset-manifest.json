@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/leiturica/static/css/main.073c9b0a.css",
+    "main.js": "/leiturica/static/js/main.dd2718df.js",
+    "static/js/787.c67c1e75.chunk.js": "/leiturica/static/js/787.c67c1e75.chunk.js",
+    "static/media/logo.svg": "/leiturica/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/leiturica/index.html",
+    "main.073c9b0a.css.map": "/leiturica/static/css/main.073c9b0a.css.map",
+    "main.dd2718df.js.map": "/leiturica/static/js/main.dd2718df.js.map",
+    "787.c67c1e75.chunk.js.map": "/leiturica/static/js/787.c67c1e75.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.dd2718df.js"
+  ]
+}
