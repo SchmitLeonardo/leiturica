@@ -1,0 +1,80 @@
+@keyframes slidein {
+    from {
+        bottom: 20px;
+        opacity: 0;
+    }
+  
+    to {
+        bottom: -25px;
+        opacity: 1;
+    }
+  }
+
+.container {
+    height: 100vh;
+    // background-color: var(--primary-color-rose);
+    background-image: url('../../../../assets/images/image-background-2-masked.png');
+    background-position: start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    img {
+        width: 400px;
+        margin-bottom: 40px;
+    }
+
+    h1 {
+        color: var(--basic-white);
+    }
+
+    p {
+        margin: 0px;
+        margin-top: 15px;
+        color: var(--basic-white);
+        font-size: 32px;
+        font-family: stellarLight;
+        text-align: center;
+        text-shadow: 2px 2px #666;
+
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .arrow {
+        position: absolute;
+        bottom: -25px;
+        width: 60px;
+        margin: 0px;
+        animation-duration: 2s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
+    }
+}
+
+@media screen and (max-width: 1054px) {
+    .container {
+        height: 100vh;
+        flex-direction: column;
+
+        img {
+            width: 80%;
+            margin-bottom: 10px;
+        }
+
+        p {
+            width: 80%;
+            font-size: 22px;
+            font-family: stellarBold;
+            text-align: center;
+        }
+    }
+}

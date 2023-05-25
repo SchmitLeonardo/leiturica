@@ -1,0 +1,26 @@
+@font-face {
+  font-family: stellarLight;
+  src: url("../fonts/Stellar-light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: stellarBold;
+  src: url("../fonts/Stellar-Bold.otf") format("opentype");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  p {
+    font-size: 18px;
+    font-family: stellarLight;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}

@@ -1,0 +1,14 @@
+.container {
+    width: 200px;
+    border-radius: 50px;
+    padding: 20px;
+    background-color: var(--error-color-light);
+    text-align: center;
+    color: var(--basic-white);
+    font-weight: bolder;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #c76565;
+    }
+}

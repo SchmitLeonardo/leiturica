@@ -1,0 +1,64 @@
+.container {
+    min-height: 100vh;
+    padding: 80px;
+    background-color: var(--primary-color-rose-dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1, h2, p {
+        color: var(--basic-white);
+        margin: 0px;
+        color: var(--basic-white);
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 42px;
+        font-family: stellarBold;
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        font-size: 32px;
+        font-family: stellarBold;
+        max-width: 230px;
+    }
+
+    p {
+        max-width: 380px;
+        font-size: 18px;
+        font-family: stellarLight;
+    }
+
+    img {
+        width: 100px;
+        margin-bottom: 50px;
+    }
+
+    .item {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 40px;
+        margin-top: 80px;
+
+        p {
+            margin-top: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 1054px) {
+    .container {
+        height: auto;
+        padding: 80px 0px;
+
+        .item {
+            width: 80%;
+            margin: 50px auto;
+        }
+    }
+}

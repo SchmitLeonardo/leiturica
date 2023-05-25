@@ -1,0 +1,64 @@
+.component {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+
+    p {
+        width: 400px;
+        font-size: 42px;
+        margin: 0px;
+        font-family: stellarBold;
+        color: var(--basic-white);
+    }
+
+    .image {
+        min-width: 50%;
+        max-width: 50%;
+        height: 100%;
+        background-image: url('../../../../assets/images/image-background-1-masked.png');
+        background-position: start;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        p {
+            display: none;
+        }
+    }
+
+    .content {
+        height: 100%;
+        width: 100%;
+        padding: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        background-color: var(--primary-color-rose);
+    }
+}
+
+@media screen and (max-width: 1054px) {
+    .component {
+        height: auto;
+        flex-direction: column;
+
+        p {
+            width: 80%;
+            margin: 0 auto;
+            font-size: 32px;
+            text-align: center;
+        }
+
+        .content {
+            width: 100%;
+            background-color: var(--primary-color-green);
+        }
+
+        .image {
+            display: none;
+        }
+    }
+}
