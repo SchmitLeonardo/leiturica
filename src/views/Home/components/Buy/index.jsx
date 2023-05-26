@@ -7,7 +7,7 @@ function Buy() {
       <h1>Agende seu atendimento!</h1>
 
       <div className={styles.card}>
-        <h2>Biblioteca Leituria</h2>
+        <h2>Biblioteca Leiturica</h2>
         <p className={styles.oldValue}>DE: R$260,00</p>
         <p className={styles.newValue}>POR: R$197,00</p>
 
