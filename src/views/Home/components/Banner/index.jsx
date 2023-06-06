@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles.module.scss';
-import logo from '../../../../assets/logo-leiturica.png';
-import arrow from '../../../../assets/icons/icon-arrow-down.png';
+import logo from '/public/assets/logo-leiturica.png';
+import arrow from '/public/assets/icons/icon-arrow-down.png';
 
 function Banner() {
     return (

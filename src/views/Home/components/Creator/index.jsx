@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./styles.module.scss";
 import { Row } from "../../../../components";
-import creator from "../../../../assets/images/image-natani-perotto.jpeg";
+import creator from "/public/assets/images/image-natani-perotto.jpeg";
 
 function Creator() {
   return (

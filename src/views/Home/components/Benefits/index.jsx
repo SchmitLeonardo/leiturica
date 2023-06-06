@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './styles.module.scss';
 import { Row } from '../../../../components';
-import book from '../../../../assets/icons/icon-book.png';
-import money from '../../../../assets/icons/icon-money-hand.png';
-import variety from '../../../../assets/icons/icon-variety.png';
+import book from '/public/assets/icons/icon-book.png';
+import money from '/public/assets/icons/icon-money-hand.png';
+import variety from '/public/assets/icons/icon-variety.png';
 
 function Benefits() {
     return(

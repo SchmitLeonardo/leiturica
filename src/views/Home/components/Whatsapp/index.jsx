@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './styles.module.scss';
-import logo from '../../../../assets/icons/icons-whatsapp.png';
+import logo from '/public/assets/icons/icons-whatsapp.png';
 
 function Whatsapp() {
     return(
