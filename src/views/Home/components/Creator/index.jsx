@@ -1,14 +1,13 @@
 import React from "react";
 import styles from "./styles.module.scss";
 import { Row } from "../../../../components";
-import creator from "/public/assets/images/image-natani-perotto.jpeg";
 
 function Creator() {
   return (
     <div className={styles.container}>
       <Row>
         <div className={styles.picture}>
-          <img src={creator} alt="Natani Perotto Imagem" draggable="false" />
+          <img src={process.env.PUBLIC_URL + "/assets/images/image-natani-perotto.png"} alt="Natani Perotto Imagem" draggable="false" />
         </div>
         <div className={styles.content}>
           <h1>Olá!</h1>
