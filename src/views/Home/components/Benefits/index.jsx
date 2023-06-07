@@ -9,7 +9,7 @@ function Benefits() {
       <Row alignItems="flex-start">
         <div className={styles.item}>
           <img
-            src={process.env.PUBLIC_URL + "/assets/icons/icon-book.png"}
+            src={process.env.PUBLIC_URL + "/images/icon-book.png"}
             alt="Ícone Livros Selecionados"
             draggable="false"
           />
@@ -18,7 +18,7 @@ function Benefits() {
         </div>
         <div className={styles.item}>
           <img
-            src={process.env.PUBLIC_URL + "/assets/icons/icon-money-hand.png"}
+            src={process.env.PUBLIC_URL + "/images/icon-money-hand.png"}
             alt="Ícone Economia de tempo e dinheiro"
             draggable="false"
           />
@@ -31,7 +31,7 @@ function Benefits() {
         </div>
         <div className={styles.item}>
           <img
-            src={process.env.PUBLIC_URL + "/assets/icons/icon-variety.png"}
+            src={process.env.PUBLIC_URL + "/images/icon-variety.png"}
             alt="Ícone variedade de gênero"
             draggable="false"
           />

@@ -14,7 +14,7 @@ function Whatsapp() {
           .focus()
       }
     >
-      <img src={process.env.PUBLIC_URL + "/assets/icons/icons-whatsapp.png"} alt="Logo Whatsapp" draggable="false" />
+      <img src={process.env.PUBLIC_URL + "/images/icons-whatsapp.png"} alt="Logo Whatsapp" draggable="false" />
       <p>Fale Conosco</p>
     </div>
   );
