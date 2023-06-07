@@ -7,10 +7,7 @@ function About() {
       <div
         className={styles.image}
         style={{
-          backgroundImage: `${
-            process.env.PUBLIC_URL +
-            "/assets/images/image-background-1-masked.png"
-          }`,
+          backgroundImage: `https://imgur.com/d7sSNmn`,
         }}
       >
         <p>

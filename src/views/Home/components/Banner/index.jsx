@@ -3,13 +3,7 @@ import styles from "./styles.module.scss";
 
 function Banner() {
   return (
-    <div className={styles.container} 
-    style={{
-      backgroundImage: `${
-        process.env.PUBLIC_URL +
-        "/assets/images/image-background-banner-masked.png"
-      }`,
-    }}>
+    <div className={styles.container}>
       <img
         src={process.env.PUBLIC_URL + "/assets/images/logo-leiturica.png"}
         alt=""
