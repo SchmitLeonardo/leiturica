@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d4f2dad.css",
-    "main.js": "/static/js/main.ac70f775.js",
+    "main.css": "/static/css/main.7f584603.css",
+    "main.js": "/static/js/main.dd05fe22.js",
     "static/media/image-background-banner-masked.png": "/static/media/image-background-banner-masked.ef59928f5da88dcae65a.png",
     "static/media/image-background-1-masked.png": "/static/media/image-background-1-masked.c31b40ff68aa3599368e.png",
     "static/media/image-background-2-masked.png": "/static/media/image-background-2-masked.227504b9cfaf4de111e3.png",
     "static/media/Stellar-Bold.otf": "/static/media/Stellar-Bold.e21385535875e905cf91.otf",
     "static/media/Stellar-light.otf": "/static/media/Stellar-light.dec6386746bb8d51a354.otf",
     "index.html": "/index.html",
-    "main.9d4f2dad.css.map": "/static/css/main.9d4f2dad.css.map",
-    "main.ac70f775.js.map": "/static/js/main.ac70f775.js.map"
+    "main.7f584603.css.map": "/static/css/main.7f584603.css.map",
+    "main.dd05fe22.js.map": "/static/js/main.dd05fe22.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d4f2dad.css",
-    "static/js/main.ac70f775.js"
+    "static/css/main.7f584603.css",
+    "static/js/main.dd05fe22.js"
   ]
 }
