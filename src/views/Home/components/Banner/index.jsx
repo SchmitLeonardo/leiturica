@@ -5,7 +5,7 @@ function Banner() {
   return (
     <div className={styles.container}>
       <img
-        src={process.env.PUBLIC_URL + "/assets/logo-leiturica.png"}
+        src="./logo-leiturica.png"
         alt=""
         draggable="false"
       />
@@ -15,11 +15,11 @@ function Banner() {
       </p>
       <p>
         <b>
-          A <b>Biblioteca PersonalizadA</b> pode te ajudar!
+          A <b>Biblioteca Personalizada</b> pode te ajudar!
         </b>
       </p>
       <img
-        src={process.env.PUBLIC_URL + "/assets/icons/icon-arrow-down.png"}
+        src="./icon-arrow-down.png"
         alt=""
         className={styles.arrow}
         draggable="false"

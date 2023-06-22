@@ -8,6 +8,7 @@ import {
   Creator,
   Buy,
   Whatsapp,
+  Footer,
 } from "./components";
 import { Element } from "react-scroll";
 
@@ -22,6 +23,7 @@ function Home() {
       <Element id="buy" name="buy">
         <Buy />
       </Element>
+      <Footer />
       <Whatsapp />
     </div>
   );
