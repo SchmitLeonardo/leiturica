@@ -11,7 +11,14 @@ function Buy() {
         <p className={styles.oldValue}>DE: R$260,00</p>
         <p className={styles.newValue}>POR: R$197,00</p>
 
-        <div className={styles.button}>Quero Agendar</div>
+        <div className={styles.button} onClick={() =>
+        window
+          .open(
+            "https://wa.me/555193114413?text=Olá,%20gostaria%20de%20adquirir%20a%20Biblioteca%20Leiturica.%20Poderia%20me%20enviar%20o%20link%20para%20efetuar%20o%20pagamento?",
+            "_blank"
+          )
+          .focus()
+      }>Quero Agendar</div>
       </div>
 
       <p>
