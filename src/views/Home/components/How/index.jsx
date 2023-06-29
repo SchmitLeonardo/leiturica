@@ -16,13 +16,11 @@ function How() {
           criança e outro, após a seleção de livros, para que eu possa
           apresentar os livros selecionados especialmente para vocês.
         </p>
-
         <p>
           Após o segundo encontro, a compra dos livros fica a critério de cada
           família, que terá a liberdade de escolher quais livros comprar, quando
           comprá-los e de onde comprá-los.
         </p>
-
         <p>
           Durante o nosso primeiro encontro online, a família irá estabelecer um
           valor anual de investimento em livros e, com base nesse valor, serão
@@ -32,12 +30,19 @@ function How() {
           filhos, proporcionando uma experiência de leitura duradoura e
           enriquecedora.
         </p>
-
-        <ScrollLink to="buy" spy={true} smooth={true} duration={500}>
-          <div className={styles.button} onClick={() => console.log("aqui")}>
-            Quero Agendar
-          </div>
-        </ScrollLink>
+        <div
+          className={styles.button}
+          onClick={() =>
+            window
+              .open(
+                "https://wa.me/555193114413?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Biblioteca%20Leiturica.",
+                "_blank"
+              )
+              .focus()
+          }
+        >
+          Quero saber mais
+        </div>
       </div>
       <div className={styles.image}></div>
     </div>
