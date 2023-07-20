@@ -1,8 +1,5 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import * as Scroll from "react-scroll";
-
-const ScrollLink = Scroll.Link;
 
 function How() {
   return (

@@ -1,14 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import Home from './views/Home';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import AppRoutes from "./routes/index";
 
 // Default Imports
-import './styles/colors.scss';
-import './styles/global.scss';
+import "./styles/colors.scss";
+import "./styles/global.scss";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Home />
+    <AppRoutes />
   </React.StrictMode>
 );
